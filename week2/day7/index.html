@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Search App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <h1>🛍️ Product Search</h1>
+            <p>Search products using a live public API</p>
+        </header>
+
+
+        <!-- Search Form -->
+        <form id="searchForm" class="search-form">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search for a product..."
+                autocomplete="off"
+            >
+
+            <button type="submit">
+                Search
+            </button>
+
+        </form>
+
+
+        <!-- Status Message -->
+        <p id="message" class="message"></p>
+
+
+        <!-- Products -->
+        <section id="productResults" class="product-grid">
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
